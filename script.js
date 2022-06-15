@@ -9,12 +9,18 @@ Each function is annotated with a comment explaining what it should do.
 By the end of the lab, all tests in the report should be passing.
 */
 
+const studentnameElement=document.querySelector("#Ikenna-Onuorah")
+const studentgradeElement=document.querySelector("#student-grade-level")
+const studentadvisorElement=document.querySelector("#student-advisor")
+const studentmajorElement=document.querySelector("#student-major")
+const studentgradElement=document.querySelector("#student-graduation-year")
+const imageUrlElement=document.querySelector("#student-image")
 const studentInformation = {
-  name: "FILL_IN_YOUR_NAME_HERE",
-  grade: "FILL_IN_YOUR_GRADE_HERE",
-  advisor: "FILL_IN_YOUR_ADVISOR_HERE",
-  major: "FILL_IN_YOUR_MAJOR_HERE",
-  graduationYear: "FILL_IN_YOUR_GRADUATION_YEAR_HERE",
+  name: "Ikenna Onuorah",
+  grade: "Junior",
+  advisor: "Phung Colvin",
+  major: "Computer Science",
+  graduationYear: "2024",
   imageUrl: "ADD_A_URL_TO_ANY_IMAGE_HERE",
 }
 
