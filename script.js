@@ -9,12 +9,7 @@ Each function is annotated with a comment explaining what it should do.
 By the end of the lab, all tests in the report should be passing.
 */
 
-const studentnameElement=document.querySelector("#Ikenna-Onuorah")
-const studentgradeElement=document.querySelector("#student-grade-level")
-const studentadvisorElement=document.querySelector("#student-advisor")
-const studentmajorElement=document.querySelector("#student-major")
-const studentgradElement=document.querySelector("#student-graduation-year")
-const imageUrlElement=document.querySelector("#student-image")
+
 const studentInformation = {
   name: "Ikenna Onuorah",
   grade: "Junior",
@@ -66,6 +61,13 @@ const gpaPointsLookup = {
  */
 const dropdownEl = document.querySelector(".dropdown")
 // ADD more query selectors here
+const studentnameElement=document.querySelector("#student-name")
+const studentgradeElement=document.querySelector("#student-grade-level")
+const studentadvisorElement=document.querySelector("#student-advisor")
+const studentmajorElement=document.querySelector("#student-major")
+const studentgradElement=document.querySelector("#student-graduation-year")
+const imageUrlElement=document.querySelector("#student-image")
+const dropdownElement=document.querySelector("#semester-dropdown")
 
 /**
  * SOLUTIONS FOR STUDENT INFO DOM UPDATES
